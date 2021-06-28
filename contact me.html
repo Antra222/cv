@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+      <link rel="stylesheet" href="C:\Users\user\Desktop\WEB_DEV2\HTML-Personal Site\css\styles.css">
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>My Fictional Address</p>
+    <p>02989383393</p>
+    <p>Myemail@gmail.com</p>
+    <hr>
+    <form enctype="text/plain" action="mailto:antrakumari1080@gmail.com" method="post">
+      <!--
+      action specifies where to come back after this form gets ended
+      enctype make sure that whatever given by user posted to client page is correctly encoded
+      method specifies to post whatever user has given entry to that page(where action is sopecified)
+    here it will post the data given by user to my mail cient-->
+      <label for="">Your Name:</label><br />
+      <input type="text" name="yourname" value=""><br>
+      <!--<input type="color" name="" value=""><br>
+           <label for="">Do you want to sign up to the email list?</label><br>
+           <input type="checkbox" name="" value=""><br>
+           <label for="">PassWord:</label><br>
+            <input type="password" name="" value=""><br>
+          <input type="file" name="" value="">
+        <input type="date" name="" value="">
+      <input type="radio" name="" value="">
+    <input type="range" name="" value="">-->
+      <label for="">Your Email:</label><br>
+      <input type="email" name="yourEmail" value=""><br>
+      <label for="">Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="" >
+    </form>
+  </body>
+</html>
